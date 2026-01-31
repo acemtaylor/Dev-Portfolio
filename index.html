@@ -4,9 +4,12 @@
 <meta charset="utf-8">
 <title>Ace Taylor | Web Developer &amp; Programmer</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://unpkg.com/simple-icons-font@v16/font/simple-icons.min.css" type="text/css">
 </head>
 
 <body>
+	
+	<div class="navbar"><a href="#">Ace Taylor</a> | <a href="#skills">Skills</a> | <a href="#portfolio">Portfolio</a></div>
 <header>
 	<div class="title">ACE TAYLOR</div>
 	<div class="subtitle">Web Designer | Programmer |Learner</div>
@@ -22,5 +25,59 @@
 		<div class="social-btn flex-center"><a href="https://github.com/acemtaylor" target="_blank"><img src="github.svg"></a><span>@acemtaylor</span></div>
 	<div class="social-btn flex-center"><a href="https://www.linkedin.com/in/alextaylor1309/" target="_blank"><img src="linkedin.svg"></a><span>@alextaylor1309</span></div>
 	</div></header>
+	
+	<div class="skills"><a name="skills"></a><h1>Skills</h1>
+	
+		<p class="bold">Proficient</p>
+	<i class="si si-html5"></i> <i class="si si-css"></i> <i class="si si-wordpress"></i> <i class="si si-git"></i> <i class="si si-gimp"></i> <i class="si si-github"></i> <i class="si si-figma"></i> [Canva] [VS Code] <br>
+	<p class="bold">Comfortable</p> <i class="si si-python"></i> <i class="si si-mysql"></i> <i class="si si-sqlite"></i> <i class="si si-php"></i> <i class="si si-bootstrap"></i><br>
+	<p class="bold">Getting there....</p> <i class="si si-javascript"></i><br>
+	<p class="bold">Beginner</p> <i class="si si-kotlin"></i><br>
+	<p class="bold">Want to learn</p> <i class="si si-react"></i> <i class="si si-nodedotjs"></i> <i class="si si-tailwindcss"></i> <i class="si si-typescript"></i> <i class="si si-sass"></i></div>
+	
+	<div class="portfolio">
+		<div class="pheader"><h1>Portfolio</h1></div>
+	
+	<div class="card">
+		<strong>Vote Analysis</strong>
+		
+		Pulling Data from AEC to analysis daily votes made in prepoll<br><br>
+		
+		<em>Built using:</em> Jupyter Notebook<br>
+		<a href="https://github.com/acemtaylor/voteanalysis"><i class="si si-github"></i></a>
+		</div>
+	
+	<div class="card"><strong>Shiny Maths Rocks</strong><br><br>
+		
+		A basic dice roller for tabletop games<br><br>
+		
+		<em>Built using:</em> Python<br>
+		<a href="https://github.com/acemtaylor/Shiny-Maths-Rocks"><i class="si si-github"></i></a></div>
+	
+	<div class="card">
+		<strong>Birthday Fortune Teller</strong><br><br>
+		
+		A basic script to give you a fortune depending on what birthday you enter<br><br>
+		
+		<em>Built using:</em> Kotlin<br>
+		<a href="https://github.com/acemtaylor/BirthdayFortunes"><i class="si si-github"></i></a></div>
+		
+		<div class="card"><strong>Video Frame Extracter</strong><br><br>
+		
+		A program to extract a chosen amount of frames per second from a video<br><br>
+		
+		<em>Built using:</em> Python<br>
+		<a href="https://github.com/acemtaylor/Video-Frame-Extractor"><i class="si si-github"></i></a></div></div>
 </body>
+	
+	<script>
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}</script>
 </html>
