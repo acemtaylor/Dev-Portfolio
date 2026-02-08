@@ -32,6 +32,7 @@ header {
     max-width: 100%;
     overflow-x: hidden;
 	z-index: 10;
+	position: relative;
 }
 
 .title {
@@ -100,7 +101,7 @@ nav a {
 	color: aqua;
 	position: fixed;
 	top: 50px;
-	width: 100%;
+	width: auto;
 	z-index: 3;
 }
 
@@ -212,3 +213,107 @@ h1 {
 .card a {
 	filter: brightness(0) saturate(100%) invert(97%) sepia(100%) saturate(6415%) hue-rotate(91deg) brightness(106%) contrast(103%);
 }
+
+.contact {
+	background-image: url("https://aceadmin.com.au/stars.jpg");
+    max-width: 100%;
+    overflow-x: hidden;
+	color: #fff;
+	margin-top: 50px;
+	padding: 20px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 10px;
+	}
+	
+	.contact a {
+	filter: brightness(0) saturate(100%) invert(97%) sepia(100%) saturate(6415%) hue-rotate(91deg) brightness(106%) contrast(103%);
+}
+
+footer {
+	background-image: url("https://aceadmin.com.au/stars.jpg");
+    max-width: 100%;
+    overflow-x: hidden;
+	color: #fff;
+	margin-top: 50px;
+	padding: 20px;
+	text-align: center;
+margin-bottom: 0 !important;
+	}
+	
+	@media (max-width: 600px) {
+		.title {
+    bottom: 50%; 
+    transform: translateY(50%); 
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    z-index: 10; 
+    font-size: 2em;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1em;
+    bottom: 50%; 
+    transform: translateY(50%); 
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    z-index: 10; 
+    text-align: center;
+    line-height: 0.1;
+}
+	}
+	
+	@media (max-width: 800px) {
+		.title {
+    bottom: 50%; 
+    transform: translateY(50%); 
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    z-index: 10; 
+    font-size: 2em;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1.3em;
+    bottom: 50%; 
+    transform: translateY(50%); 
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    z-index: 10; 
+    text-align: center;
+    line-height: 0.1;
+}
+	}
+	
+		@media (max-width: 400px) {
+		.title {
+    bottom: 50%; 
+    transform: translateY(50%); 
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    z-index: 10; 
+    font-size: 2em;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 0.8em;
+    bottom: 50%; 
+    transform: translateY(50%); 
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    z-index: 10; 
+    text-align: center;
+    line-height: 0.1;
+}
+	}
